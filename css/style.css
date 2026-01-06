@@ -17,12 +17,12 @@ html {
 
 @font-face {
   font-family: "heading";
-  src: url("/fonts/CabinetGrotesk.ttf") format("truetype");
+  src: url("../fonts/CabinetGrotesk.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "text";
-  src: url("/fonts/Nunito.ttf") format("truetype");
+  src: url("../fonts/Nunito.ttf") format("truetype");
 }
 
 body {
@@ -106,7 +106,7 @@ a {
 
 .btn_2::after {
   content: "";
-  background-image: url("/images/circle-arrow.png");
+  background-image: url("../images/circle-arrow.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: bottom;
@@ -214,7 +214,7 @@ main p {
 }
 
 .intro {
-  background: url("/images/1.jpg") no-repeat;
+  background: url("../images/1.jpg") no-repeat;
   background-size: cover;
   height: calc(100vh - 8rem);
   width: 100vw;
@@ -344,7 +344,7 @@ section {
 
 .about .card_bg {
   background: linear-gradient(45deg, #101112a1, #5a5d607c),
-    url("/images/4.jpg") no-repeat;
+    url("../images/4.jpg") no-repeat;
   background-size: cover;
   border-radius: 0;
 }
